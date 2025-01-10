@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  -webkit-text-decoration: 0;
+          text-decoration: 0;
+}
+
+header {
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.div1 {
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+}
+.div1 a {
+  color: #5b5b5b;
+}
+
+button {
+  background-color: white;
+  width: 8vw;
+  height: 8vh;
+  border: solid black;
+}
+
+.div2 {
+  height: 100vh;
+  background-image: url(./imagens/background.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+}
+.div2 nav {
+  color: white;
+  padding-left: 100px;
+}
+.div2 nav h2 {
+  font-size: 80px;
+}
+.div2 nav h3 {
+  font-size: 25px;
+}
+.div2 nav button {
+  margin-left: 40px;
+  margin-top: 25px;
+  height: 8vh;
+  width: 13vw;
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  border: none;
+}
+
+.div3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.div3 .sec1 {
+  width: 30vw;
+  height: 65vh;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.div3 .sec1 h4 {
+  font-size: 24px;
+  color: #0017e9;
+}
+.div3 .sec1 h3 {
+  font-size: 36px;
+}
+.div3 .sec1 button {
+  color: blue;
+  background-color: white;
+  border: none;
+}
+.div3 img {
+  width: 30vw;
+  height: 80vh;
+}/*# sourceMappingURL=style.css.map */
